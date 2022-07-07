@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/online-education/static/css/main.ddfa6a89.css",
+    "main.js": "/online-education/static/js/main.c69461c1.js",
+    "static/js/787.7a6eabf0.chunk.js": "/online-education/static/js/787.7a6eabf0.chunk.js",
+    "static/media/courses1.png": "/online-education/static/media/courses1.9f662312b950edf12077.png",
+    "static/media/wrap1.webp": "/online-education/static/media/wrap1.f4c0c82be1996fb7b9a5.webp",
+    "static/media/teamback.jpg": "/online-education/static/media/teamback.20e9dfd0b3c4c7291bcb.jpg",
+    "static/media/about.webp": "/online-education/static/media/about.99c26e0be0e2bd25256c.webp",
+    "static/media/hero8.webp": "/online-education/static/media/hero8.37c0c40fa47f7c1f2cf4.webp",
+    "index.html": "/online-education/index.html",
+    "main.ddfa6a89.css.map": "/online-education/static/css/main.ddfa6a89.css.map",
+    "main.c69461c1.js.map": "/online-education/static/js/main.c69461c1.js.map",
+    "787.7a6eabf0.chunk.js.map": "/online-education/static/js/787.7a6eabf0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ddfa6a89.css",
+    "static/js/main.c69461c1.js"
+  ]
+}
