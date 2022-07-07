@@ -1,0 +1,88 @@
+.popular_section {
+    background-image: url('../../../public/images/team/teamback/teamback.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 110vh;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding-top: 30%;
+    padding-left: 26%;
+}
+
+.team .items {
+    transition: 0.5s;
+    background-color: aliceblue;
+}
+
+.team .items:hover,
+.team .items:hover .d-1 {
+    background-color: #1eb2a6;
+    color: #fff;
+}
+
+.team .img {
+    position: relative;
+}
+
+.team img {
+    width: 100%;
+    height: 100%;
+}
+
+.team .img .overlay {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    padding: 20px;
+    z-index: 11;
+    opacity: 0;
+    transition: 0.7s;
+}
+
+.team .items:hover .overlay {
+    opacity: 1;
+}
+
+.overlay i {
+    background-color: black;
+    color: #fff;
+    margin: 5px;
+}
+
+.team .details {
+    text-align: center;
+    padding: 30px;
+}
+
+.team .details h2 {
+    font-size: 22px;
+    font-weight: 500;
+    transition: 0.6s;
+}
+
+.team .details .d-1 {
+    font-size: 19px;
+    color: rgb(75, 44, 44);
+    margin-top: 10px;
+    transition: 0.6s;
+}
+
+@media screen and (max-width:760px) {
+    .popular_section {
+        background-position: center;
+        padding-top: 70%;
+    }
+
+    .team .items {
+        margin-top: 50px;
+    }
+
+    .overlay i {
+        margin: 2px;
+    }
+}

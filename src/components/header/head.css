@@ -1,0 +1,88 @@
+.head {
+    padding: 20px 0;
+    color: rgb(240, 234, 234)
+}
+
+.web-title h1 {
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.head i {
+    margin-left: 10px
+}
+
+header {
+    background-color: rgb(130, 137, 143);
+    margin: 0 30px;
+    position: relative;
+}
+
+header li {
+    margin-right: 50px;
+}
+
+header ul {
+    padding: 25px 20px;
+}
+
+header ul li a {
+    color: #fff;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+header ul li a:hover {
+    color: aquamarine;
+}
+
+.auth-img {
+    background-color: rgb(119, 201, 197);
+    border-left: 2px solid rgb(183, 9, 199);
+
+}
+
+.auth-img img {
+    width: 50px;
+    height: 50px;
+    margin: 10px 30px;
+    border-radius: 50%;
+}
+
+.toggle-menu-bar {
+    display: none;
+}
+
+@media screen and (max-width:760px) {
+    header {
+        margin: 0;
+    }
+
+    header ul.flex {
+        display: none;
+    }
+
+    .toggle-menu-bar {
+        display: block;
+        font-size: 30px;
+        background: none;
+        color: #fff;
+        position: absolute;
+        right: 20px;
+        border: none;
+        top: -2.5rem;
+        line-height: 80px;
+    }
+
+    .mobile-navbar {
+        position: absolute;
+        top: 4rem;
+        left: 0;
+        width: 100%;
+        background-color: rgb(130, 137, 143);
+    }
+
+    header ul li {
+        margin-bottom: 25px;
+    }
+}

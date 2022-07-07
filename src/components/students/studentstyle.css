@@ -1,0 +1,55 @@
+.success_student .items {
+    padding: 30px;
+    transition: 0.6s;
+    background-color: rgb(248, 241, 228);
+}
+
+.success_student .img {
+    position: relative;
+}
+
+.success_student img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.success_student i {
+    background-color: #1eb2a6;
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+    color: #fff;
+}
+
+.success_student .name {
+    margin: 25px;
+}
+
+.success_student .name h2 {
+    margin-bottom: 7px;
+}
+
+.success_student .name span {
+    color: #1eb2a6;
+}
+
+.success_student h3 {
+    margin-top: 22px;
+    transition: 0.6s;
+}
+
+.success_student .items:hover {
+    background-color: #1eb2a6;
+    color: #fff;
+    cursor: pointer;
+}
+
+.success_student .items:hover .name span {
+    color: #fff;
+}
+
+.success_student .items:hover i {
+    color: #1eb2a6;
+    background-color: #fff;
+}

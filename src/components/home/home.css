@@ -1,0 +1,95 @@
+.hero-section {
+    background-image: url('../../../public/images/hero8.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 110vh;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding-top: 20%;
+    padding-right: 50%;
+
+}
+
+.row1 {
+    width: 80%;
+}
+
+button {
+    padding: 12px 27px;
+    color: rgb(232, 226, 235);
+    font-weight: 600;
+    margin-right: 20px;
+    margin-top: 30px;
+    border: none;
+    font-size: 19px;
+    background-color: rgb(113, 204, 181);
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+p {
+    /* padding: 14px; */
+    font-size: 17px;
+    color: rgb(241, 227, 214);
+    line-height: 30px;
+    /* background-color: rgb(206, 212, 212); */
+    font-weight: 500;
+    border-radius: 3px;
+}
+
+.secondry-btn {
+    background-color: #1eb2a6;
+    color: #fff;
+}
+
+button i {
+    margin-left: 20px;
+}
+
+#titles {
+
+    padding: 40px 0;
+    color: #0ae7d5;
+}
+
+.hero-section #titles {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+#titles h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#titles h1 {
+    font-size: 50px;
+    margin: 15px 0;
+    color: rgb(206, 218, 106);
+    text-transform: capitalize;
+
+}
+
+
+
+@media screen and (max-width:760px) {
+    .row1 {
+        width: 35rem;
+    }
+
+    .hero-section {
+        background-position: right;
+        padding-top: 40%;
+        height: 90vh;
+    }
+
+
+
+}

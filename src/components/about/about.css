@@ -1,0 +1,126 @@
+.about-section {
+    background-image: url('../../../public/images/about.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 110vh;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding-top: 30%;
+    padding-left: 28%;
+    text-align: center;
+}
+
+.about-section h2,
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.marginn {
+    margin-top: 40.3%;
+}
+
+.about_home {
+    height: auto;
+}
+
+.about_home .left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about_home .right {
+    text-align: left;
+    padding: 50px 50px;
+    width: 50%;
+}
+
+.about_home .right .items {
+    margin-bottom: 50px;
+}
+
+.about_home .right .items .item {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: bisque;
+    transition: 0.5s;
+}
+
+.about_home img {
+    width: 70px;
+    height: 70px;
+}
+
+.about_home .img {
+    width: 200px;
+}
+
+.about_home .item h2 {
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+
+.about_home .items .item:hover {
+    background-color: #1eb2a6;
+    color: #fff;
+    cursor: pointer;
+}
+
+.wraper-section {
+    background-image: url("../../../public/images/wrap1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 35vh;
+    color: #fff;
+}
+
+.wraper-section .box {
+    padding: 60px 0;
+    margin-left: 80px;
+}
+
+.wraper-section .box img {
+    margin-right: 30px;
+}
+
+.wraper-section h1 {
+    font-size: 60px;
+}
+
+.wraper-section h3 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+@media screen and (max-width:760px) {
+    .about-section {
+        background-position: center;
+        padding-top: 50%;
+        height: 80vh;
+    }
+
+    .about_home {
+        margin-top: 75% !important;
+    }
+
+    .about_home .flex {
+        flex-direction: column-reverse;
+    }
+
+    .about_home .row {
+        width: 100%;
+    }
+
+    .wraper-section {
+        height: 80vh;
+    }
+
+
+
+}
